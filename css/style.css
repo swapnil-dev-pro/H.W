@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.con{
+    width: 1200px;
+    margin: auto;
+}
+/* commom part end */
+.a{
+    height: 100px;
+    background-color:tomato;
+}
+.menu{
+    text-align: center;
+}
+.menu ul,li{
+    display: inline-block;
+}
+.menu ul,li,a{
+    color: antiquewhite;
+    padding: 0 25px;
+    text-transform: uppercase;
+    line-height: 100px;
+    transition: 1s;
+    font-family: "Merriweather", serif;
+    font-weight:400;
+}
+.menu ul,li,a:hover{
+    color:tomato;
+}
+.ban{
+    background-image:url(../images/pngtree-road-with-traffic-cones-and-vehicles-trees-on-both-sides-of-image_16126218.jpg) ;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+.b{
+    background-color: rgba(0, 0, 0, 0.553);
+    height: 500px;
+}
+.con h1{
+    text-align: center;
+    position: absolute;
+    color:whitesmoke;
+    top: 0%;
+    right:37%;
+}
+.con h2{
+    text-align: center;
+    position: absolute;
+    color:whitesmoke;
+    top:20%;
+    right:41%;
+}
+.con p{
+    text-align: center;
+    position: absolute;
+    color:whitesmoke;
+    top:40%;
+    right:30%;
+}
+.g{
+    background-image: url(../images/images\ \(2\).png);
+    width:400px;
+    height:90px;
+    position: absolute;
+    bottom: 0%;
+    right:38%;
+  
+}
