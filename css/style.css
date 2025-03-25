@@ -16,6 +16,7 @@ a{
 .a{
     height: 100px;
     background-color:tomato;
+    border: solid wheat 3px;
 }
 .menu{
     text-align: center;
@@ -73,7 +74,28 @@ a{
     width:400px;
     height:90px;
     position: absolute;
-    bottom: 0%;
-    right:38%;
-  
+    bottom:0;
+    right:40%;
+}
+.m{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    position: absolute;
+    top: 6%;
+    right: 25%;
+}
+.l{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+    top: 5%;
+    left:25%;
+}
+.mm{
+    height: 200px;
+    background-color: red;
 }
